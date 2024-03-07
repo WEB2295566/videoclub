@@ -1,0 +1,3 @@
+.mt-small {
+  margin-top: calc(var(--space-base));
+}

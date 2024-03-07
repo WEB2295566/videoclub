@@ -1,0 +1,27 @@
+/* TuileFilm.css */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.card img {
+  width: 230px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.tuile-titre,
+.tuile-annee {
+  color: #ececff;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.tuile-liste {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin-top: 12px;
+}

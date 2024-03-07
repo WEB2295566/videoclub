@@ -1,0 +1,42 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.film-card img {
+  width: 25%;
+  object-fit: cover;
+}
+
+.film-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.film-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.film-titre {
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.film-description,
+.film-genres,
+.film-annee,
+.film-realisation {
+  font-size: 2rem;
+  max-width: 500px;
+}
+
+.film-vote {
+  padding: 10px 14px;
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
